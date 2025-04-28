@@ -14,6 +14,16 @@ public class Main {
         else {
             System.out.println("Можно идти без шапки");
         }
+
+        int speed = 60;
+        if (speed > 60) {
+            System.out.println("Придется платить штраф");
+        }
+        else {
+            System.out.println("Можно ездить спокойно");
+        }
+
+
     }    }
 
 
