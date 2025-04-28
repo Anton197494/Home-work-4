@@ -7,9 +7,15 @@ public class Main {
         if (age < 18) {
             System.out.println("Человек не достиг совершеннолетия");
         }
-    }
+        int temperature = 8;
+        if (temperature < 5) {
+            System.out.println("На улице холодно нужно надеть шапку");
+        }
+        else {
+            System.out.println("Можно идти без шапки");
+        }
+    }    }
 
-    }
 
 
 
