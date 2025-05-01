@@ -50,6 +50,30 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + age2 + " то ему можно кататься на атракционе без сопровождения взрослого");
         }
 
+        int carriage = 102;
+        int seating = 60;
+        int standingRoom = carriage - seating;
+        if (carriage <= 102 &&  carriage != 0) {
+            System.out.println("Мест в вагоне осталось " + carriage);
+        }
+        else {
+            System.out.println("Мест в вагоне не осталось");
+        }
+        if (seating <= 60 &&  seating != 0) {
+            System.out.println("Сидячих мест в вагоне осталось " + seating);
+        }
+        else {
+            System.out.println("Сидячих мест в вагоне не осталось");
+        }
+        if (standingRoom <= 42 &&  standingRoom != 0) {
+            System.out.println("Стоячих мест в вагоне осталось " + standingRoom);
+        }
+        else {
+            System.out.println("Стоячих мест в вагоне не осталось");
+        }
+
+
+
 
 
 
